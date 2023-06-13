@@ -22,29 +22,36 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 300px;
+  gap: 200px;
 }
+
+.bag{
+  margin-top: 51px;
+}
+
 .title-header {
-  font-size: 50px;
+  font-size: 30.3px;
   font-weight: 400;
 
   text-align: center;
   margin-top: 30px;
+  margin-left: 150px;
 }
 .btns-header {
   display: flex;
   flex-direction: row;
   gap: 20px;
   margin-top: 30px;
+  margin-right: -100px;
 }
 .btn-header {
   background-color: #95c5b7;
   color: #faf5e3;
-  width: 180px;
-  height: 50px;
+  width: 178.77px;
+  height: 40.4px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 19px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border: none;
   border-radius: 25px;
@@ -64,7 +71,7 @@ body {
 #nav-item {
   background-color: #faf5e3;
   border: none;
-  font-size: 25px;
+  font-size: 19px;
   font-weight: 400px;
 }
 
@@ -76,7 +83,7 @@ body {
 }
 
 .logo {
-  width: 1400px;
+  width: 1100px;
   
   display: flex;
   align-items: center;
@@ -152,15 +159,16 @@ body {
 }
 .produtos {
     margin-top: 170px;
+    flex-direction: row;
 }
 .produtos-header {
     display: flex;
     flex-direction: row;
-    gap: 800px;
+    gap: 600px;
 }
 .title-produtos {
     font-size: 50px;
-    margin-left: 363px;
+    margin-left: 134px;
 }
 
 .produtos {
@@ -209,6 +217,7 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+
 .sofas {
   display: flex;
   flex-direction: row;
@@ -275,22 +284,28 @@ body {
   gap: 200px;
 }
 
+.sofa-chesterfield:hover, .sofa-modular:hover, .sofa-canto:hover, .sofa-retratil:hover, .sofa-cama:hover, .sofa-retro:hover{
+  border: 3px solid gray;
+  border-radius: 20px;
+}
+
+
 .mmontar {
   margin-top: 200px;
 }
 .monteseu img {
   margin-top: 50px;
-  margin-left: 363px;
+  margin-left: 150px;
 }
 .monteseusofa{
   font-size: 50px;
-  margin-left: 363px;
- 
+  margin-left: 150px;
 }
 .modelodosofa {
   margin-top: 10rem;
   display: flex;
   flex-direction: column;
+  margin-left: -120px;
 }
 .modelos1 {
   display: flex;
@@ -311,12 +326,12 @@ body {
 }
 .title-tecidos {
   font-size: 30px;
-  margin-left: 363px;
+  margin-left: 150px;
 }
 .tecidos {
   display: flex;
   flex-direction: row;
-  gap: 7rem;
+  gap: 5rem;
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
@@ -324,22 +339,32 @@ body {
 .linho {
   border: 3rem solid #EFB25F;
   border-radius: 1rem;
+  width: 204px;
+  height: 195px;
 }
 .sarja {
   border: 3rem solid #95C5B7;
   border-radius: 1rem;
+  width: 204px;
+  height: 195px;
 }
 .suede {
   border: 3rem solid #CE524A;
   border-radius: 1rem;
+  width: 204px;
+  height: 195px;
 }
 .acquablock {
   border: 3rem solid #EFB25F;
   border-radius: 1rem;
+  width: 204px;
+  height: 195px;
 }
 .veludo {
   border: 3rem solid #95C5B7;
   border-radius: 1rem;
+  width: 204px;
+  height: 195px;
 }
 .tecido-linho ,.tecido-sarja ,.tecido-suede ,.tecido-acquablock , .tecido-veludo {
   display: flex;
@@ -352,12 +377,16 @@ body {
   font-size: 18px;
   font-weight: 700;
 }
+
+.linho:hover ,.sarja:hover ,.suede:hover ,.acquablock:hover , .veludo:hover{
+  border: 3px solid gray;
+}
 .cores-sofa{
   margin-top: 10rem;
 }
 .title-cores {
   font-size: 30px;
-  margin-left: 363px;
+  margin-left: 150px;
 }
 .cor {
   width: 14rem;
@@ -461,7 +490,7 @@ body {
 }
 .title-tamanho {
   font-size: 30px;
-  margin-left: 363px;
+  margin-left: 150px;
 }
 .sofas-tamanho {
   display: flex;
@@ -566,7 +595,7 @@ footer {
   width: 27rem;
   height: 0.2rem;
   background-color: #E65100;
-  margin-left: 366px;
+  margin-left: 150px;
 }
 .line-modelo {
   content: "";
